@@ -1,6 +1,7 @@
 [ignore]
 .*/react/node_modules/.*
 .*/fbemitter/node_modules/.*
+.*/fbjs/.*
 
 [include]
 node_modules/classnames
