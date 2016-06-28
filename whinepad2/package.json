@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "watch": "watch \"sh scripts/build.sh\" js/source/ js/__tests__ css/",
+    "watch": "./node_modules/watch/cli.js \"sh scripts/build.sh\" js/source/ js/__tests__ css/",
     "test": "jest"
   },
   "eslintConfig": {
@@ -113,5 +113,13 @@
       "node_modules/react-addons-test-utils",
       "node_modules/fbjs"
     ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "classnames": "^2.2.5",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "watch": "^0.19.1"
   }
 }
